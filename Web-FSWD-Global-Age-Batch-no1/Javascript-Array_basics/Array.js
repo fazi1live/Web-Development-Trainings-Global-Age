@@ -27,6 +27,81 @@
 // console.log(lastvalue)
 
 
-const fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
-const citrus = fruits.slice(2,3);
-console.log(citrus)
+const people  = [
+    {
+        Name:'Khan',
+        Age:10,
+        City:'Gilgit'
+    },
+    {
+        Name:'Mayer',
+        Age:15,
+        City:'Lahore'
+    },
+    {
+        Name:'Ali',
+        Age:20,
+        City:'Lahore'
+    }
+]
+
+const tempPeople = people;
+console.log(people.length);
+console.log(Object.keys(people));
+tempPeople.splice(1,2,'Apple');
+console.log(tempPeople);
+console.log(people);
+
+
+
+
+Michael — Today at 8:40 PM
+const people  = [
+    {
+        Name:'Khan',
+        Age:10,
+        City:'Gilgit'
+    },
+    {
+        Name:'Mayer',
+        Age:15,
+        City:'Lahore'
+    },
+    {
+        Name:'Ali',
+        Age:20,
+        City:'Lahore'
+    }
+]
+
+const tempPeople = people.slice(1,2);
+
+// tempPeople will be, without affecting the people array: 
+    [{
+        Name:'Mayer',
+        Age:15,
+        City:'Lahore'
+    },
+    {
+        Name:'Ali',
+        Age:20,
+        City:'Lahore'
+    }
+]
+const addToTempPeople = [...tempPeople, "apple"]
+ 
+Kun — Today at 8:49 PM
+Great Example Michael Thank you
+
+
+Michael — Today at 8:50 PM
+You can make it shorter, I split it to make it clear for you: const tempPeople = [...people.slice(1,2), "apple"];
+Kun — Today at 8:51 PM
+Great
+well I alwasy get confused with spread oprator in array
+any important or usefularticle to read about it
+Michael — Today at 8:51 PM
+Take some time to learn Array and Object operations, it will really help you out
+Kun — Today at 8:52 PM
+got it thanks
+and about spread operator with array?>
