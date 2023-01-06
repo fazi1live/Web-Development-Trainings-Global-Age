@@ -105,3 +105,8 @@ Take some time to learn Array and Object operations, it will really help you out
 Kun — Today at 8:52 PM
 got it thanks
 and about spread operator with array?>
+
+
+
+There are probably a ton of blogposts about it if you google, but you can never go wrong with checking MDN: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax
+Also, https://arrayexplorer.netlify.app/ and https://objectexplorer.netlify.app/ might be useful to visually see what different operations do
