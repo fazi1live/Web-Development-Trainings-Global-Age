@@ -1,0 +1,13 @@
+.nav{
+    background-color: palevioletred;
+    margin-top: 20px;
+    height: 100px;
+}
+
+.hero-image{
+    background-image: url('../assets/hero-image.jpg');
+    height: 500px;
+    width: 100%;
+    background-position: center center;
+    background-attachment: fixed;
+}
