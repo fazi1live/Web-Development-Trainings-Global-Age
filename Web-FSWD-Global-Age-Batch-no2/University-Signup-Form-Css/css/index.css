@@ -2,6 +2,8 @@
     background-color: palevioletred;
     margin-top: 20px;
     height: 100px;
+    display: flex;
+    justify-content: space-around;
 }
 
 .hero-image{
@@ -10,4 +12,13 @@
     width: 100%;
     background-position: center center;
     background-attachment: fixed;
+}
+
+.nav-options{
+    display: flex;
+    justify-content: space-between;
+    width:700px;
+    justify-content: space-between;
+}
+.logo{
 }
